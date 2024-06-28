@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "bravas"
+version = "0.0.1a"
+authors = [
+    {name="Okke van Eck", email="okke.van.eck@gmail.com"},
+]
+description = "A unified interface for profiling and analyzing GPU applications on different platforms."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/OkkeVanEck/bravas"
+Issues = "https://github.com/OkkeVanEck/bravas/issues"
